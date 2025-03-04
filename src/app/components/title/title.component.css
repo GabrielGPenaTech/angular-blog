@@ -1,0 +1,10 @@
+.container {
+  border-block: 0.7px solid #393d3b;
+  padding-block: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
