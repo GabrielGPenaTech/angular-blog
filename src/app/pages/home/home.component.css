@@ -1,4 +1,4 @@
 article.container {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr ;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
 }

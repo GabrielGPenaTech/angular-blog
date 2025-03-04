@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem;
+
+  & + .container {
+    border-top: 0.5px solid #393d3b;
+  }
+}
+
+span {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 15rem;
+  width: 100%;
+  max-height:  9rem;
+  border-radius: 8px;
+}
