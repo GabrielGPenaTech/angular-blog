@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 export type CardProps = {
   image: string;
@@ -8,7 +9,7 @@ export type CardProps = {
 
 @Component({
   selector: 'app-notice-card',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './notice-card.component.html',
   styleUrl: './notice-card.component.css'
 })

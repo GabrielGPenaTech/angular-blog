@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60rem;
+  margin: auto;
+
+  gap: 3rem;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 8px;
+}
+
+p {
+  margin-top: 2rem;
+  color: grey;
+}
+
+a {
+  border: 1px solid grey;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: rgb(80, 80, 80);
+    color: white;
+  }
+}
