@@ -14,4 +14,8 @@ export class HeroCardComponent {
   title = '';
   @Input()
   description = '';
+  @Input()
+  span = '';
+  @Input()
+  cardId = '';
 }

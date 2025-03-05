@@ -2,9 +2,11 @@ import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 export type CardProps = {
+  id: string;
   image: string;
   span: string;
   title: string;
+  description?: string
 }
 
 @Component({

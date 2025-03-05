@@ -4,7 +4,7 @@
     <img src={{info.image}} alt="...">
     <div class="details">
       <span>{{info.span}}</span>
-      <a [routerLink]="['/content']">
+      <a [routerLink]="['/content', info.id]">
         <h3>{{info.title}}</h3>
       </a>
     </div>
