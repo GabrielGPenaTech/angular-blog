@@ -1,4 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+export type CardProps = {
+  image: string;
+  span: string;
+  title: string;
+}
 
 @Component({
   selector: 'app-notice-card',
@@ -7,5 +13,8 @@ import { Component } from '@angular/core';
   styleUrl: './notice-card.component.css'
 })
 export class NoticeCardComponent {
+
+  @Input()
+  infos: CardProps[] = []
 
 }
